@@ -1,0 +1,80 @@
+:root{
+    --primary-text-color:#212121;
+    --text-color:#757575;
+    --white-color:#FFFFFF;
+    --blue-color:#2196F3;
+}
+
+
+
+/* Колір основного тексту */
+/* основний колір текст color#212121:  */
+/* вторинний колір текст color#757575*/
+/* color: #FFFFFF білий */
+/* color: #2196F3 блакитний */
+/* футер мейл телефон color: rgba(255, 255, 255, 0.6) */
+
+body{
+    color: var(--primary-text-color);
+    background-color:var(--white-color);
+}
+/* Лого */
+.logo{
+    color: #000000; ;
+}
+.logo-text{
+    color:var(--blue-color);
+}
+
+ul{
+    list-style: none;
+}
+
+/* Header */
+.site-nav a{
+    color:var(--primary-text-color);
+}
+.contact a{
+    color: var(--text-color);
+}
+.contact a:hover,
+.contact a:focus{
+   color: var(--blue-color);
+}
+.section-text{
+    color:var(--text-color) ;
+}
+
+/* Hero */
+
+.hero{
+    background-color: #2F303A; 
+}
+.hero-title{
+     color:var(--white-color);
+}
+.hero-button{
+    color:var(--white-color);
+    background-color:var(--blue-color);
+}
+
+/* Наша команда */
+
+.team{
+    background-color:#F5F4FA; 
+}
+
+/* Footer */
+.footer{
+    background: #2F303A;;
+}
+.footer-address{
+    color: var(--white-color);
+}
+.footer-link{
+    color:rgba(255, 255, 255, 0.6) ;
+}
+.footer-link:hover,
+.footer-link:focus{
+    color: var(--blue-color);
+}
