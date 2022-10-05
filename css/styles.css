@@ -34,17 +34,24 @@ ul{
 .site-nav a{
     color:var(--primary-text-color);
 }
-.contact a{
+.list-contact a{
     color: var(--text-color);
 }
-.contact a:hover,
-.contact a:focus{
+.list-contact a:hover,
+.list-contact a:focus{
    color: var(--blue-color);
 }
 .section-text{
     color:var(--text-color) ;
 }
 
+.link{
+    color: var(--primary-text-color);
+}
+.link:hover,
+.link:focus{
+    color: var(--blue-color);
+}
 /* Hero */
 
 .hero{
@@ -74,7 +81,27 @@ ul{
 .footer-link{
     color:rgba(255, 255, 255, 0.6) ;
 }
+.footer-address:hover,
+.footer-address:focus,
 .footer-link:hover,
 .footer-link:focus{
+    color: var(--blue-color);
+}
+
+/* Кнопки портфоліо */
+.section-button{
+    color: var(--primary-text-color);   
+}
+.section-button:hover,
+.section-button:focus{
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+/* Посилання в портфоліо */
+.list-title{
+    color: var(--primary-text-color);
+}
+.list-title:hover,
+.list-title:focus{
     color: var(--blue-color);
 }
