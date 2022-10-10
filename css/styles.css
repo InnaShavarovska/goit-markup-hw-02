@@ -93,7 +93,7 @@ text-decoration: none;
 }
 .hero-button:hover,
 .hero-button:focus {
-   color: var(--blue-color);
+   background-color: var(--blue-color);
 }
 
 /* Переваги студії */
