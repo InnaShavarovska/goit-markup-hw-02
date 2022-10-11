@@ -27,7 +27,8 @@ ul {
 
 /* Лого */
 
-.logo,
+.nav-logo,
+.footer-logo,
 .logo-text{
 font-family: 'Raleway', sans-serif;
 font-weight: 700;
@@ -35,14 +36,19 @@ font-size: 26px;
 line-height: 1.2;
 text-decoration: none;
 }
-.logo{
+.nav-logo{
     color: #000000; 
 }
+.footer-logo{
+    color: var(--white-color);
+}
+
 .logo-text{
     color:var(--blue-color);
 }
 
 /* Nav */
+
 .list-contact a,
 .list-nav a{
     font-weight: 500;    
@@ -51,17 +57,24 @@ text-decoration: none;
     text-decoration: none;
 }
 .list-contact a{
-   color: var(--text-color);
+    color: var(--text-color);
 }
-.list-nav a{
-    color: var(--primary-text-color); 
+.list-nav a {
+    color: var(--primary-text-color);
 }
+
+.list-nav a.current{
+    color: var(--blue-color);
+}
+
 .list-nav a:hover,
 .list-nav a:focus, 
 .list-contact a:hover,
 .list-contact a:focus{
     color: var(--blue-color);
 }
+
+
 
 /* Cтилі html */
 
@@ -144,6 +157,7 @@ line-height: 1.19;
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
     text-decoration: none;
+    font-style: normal;
 }
 .footer-color{
     color: var(--white-color);
